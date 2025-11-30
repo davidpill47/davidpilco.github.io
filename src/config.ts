@@ -98,8 +98,9 @@ export const siteConfig: SiteConfig = {
   name: "David Pillco",
   title: "Desarrollador y Analista de datos",
   description:
-    `Soy Ingeniero en Computación con experiencia en desarrollo, proyectos y soporte. Me especializo 
-    en crear soluciones técnicas innovadoras para optimizar procesos y mejorar la calidad de los servicios`,
+    `Soy Ingeniero en Computación con experiencia en desarrollo, proyectos, soporte y análisis de datos. 
+    Me especializo en crear soluciones técnicas innovadoras para optimizar procesos y mejorar la 
+    calidad de los servicios.`,
   avatar: "../assets/bloomfolio.png",
   location: "Madrid, España",
   email: "contact.davidpill@gmail.com",
