@@ -3,7 +3,7 @@ title: "Cooperativa de Ahorro y Crédito Coopmego"
 subtitle: "Asistente de Soporte Técnico"
 # Importar el logo desde images
 
-logo: "https://coopmego.com/wp-content/uploads/2015/05/coopmego_logo@2x.png"
+logo: "https://acortar.link/CH55VV"
 startDate: "2021-06-01"
 endDate: "2024-01-01"
 link: "https://coopmego.com"
