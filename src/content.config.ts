@@ -78,6 +78,19 @@ const about = defineCollection({
   }),
 });
 
+// Certifications collection
+const certifications = defineCollection({
+  loader: glob({ pattern: "**/*.md", base: "./src/content/certifications" }),
+  schema: z.object({
+    title: z.string(),
+    subtitle: z.string(),
+    startDate: z.coerce.date(),
+    endDate: z.coerce.date().optional(),
+    logo: z.string().optional(),
+    link: z.string().url().optional(),
+  }),
+});
+
 export const collections = {
   work,
   education,
@@ -85,4 +98,5 @@ export const collections = {
   hackathons,
   blog,
   about,
+  certifications,
 };
