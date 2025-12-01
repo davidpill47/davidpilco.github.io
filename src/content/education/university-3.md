@@ -1,10 +1,10 @@
 ---
-title: "University of Systems"
-subtitle: "Bachelor of Engineering in Information Technology"
-logo: "https://api.dicebear.com/9.x/icons/svg?seed=Brian"
+title: "Unidad Educativa Fiscomisional Calasanz"
+subtitle: "Bachillerato en Ciencias & Bachillerato Internacional"
+logo: "/images/logo_calasanz.jpeg"
 startDate: "2015-09-01"
 endDate: "2019-05-30"
 link: "https://university.edu"
 ---
 
-Focused on software engineering, algorithms, and data structures. Graduated with honors and participated in various coding competitions.
+Formación secundaria doble que combina el currículo nacional enfocado en Ciencias (Física, Química, Biología) con el rigor académico internacional del programa IB, desarrollando habilidades avanzadas de investigación, pensamiento crítico y redacción académica (Monografía IB).

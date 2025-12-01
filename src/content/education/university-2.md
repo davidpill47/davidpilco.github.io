@@ -1,10 +1,10 @@
 ---
-title: "University of AI"
-subtitle: "Bachelor of Information Systems"
-logo: "https://api.dicebear.com/9.x/icons/svg?seed=Sophia"
-startDate: "2015-09-01"
-endDate: "2019-05-30"
-link: "https://university.edu"
+title: "Universidad Técnica Particular de Loja"
+subtitle: "Ingenieria en Ciencias de la Computación"
+logo: "/images/logo_utpl.jpeg"
+startDate: "2018-04-07"
+endDate: "2023-04-27"
+link: "https://www.utpl.edu.ec"
 ---
 
-Focused on software engineering, algorithms, and data structures. Graduated with honors and participated in various coding competitions.
+Ingeniero en Ciencias Computacionales con una sólida formación práctica en la resolución de problemas complejos. Capacitado en el desarrollo de software, la gestión de bases de datos, la gestión de proyectos tecnológicos, la investigación y la generación de soluciones innovadoras con un enfoque proactivo.

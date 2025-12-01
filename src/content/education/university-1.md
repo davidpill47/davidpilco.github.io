@@ -1,10 +1,10 @@
 ---
-title: "University of Technology"
-subtitle: "Bachelor of Science in Computer Science"
-logo: "https://api.dicebear.com/9.x/icons/svg?seed=Nolan"
-startDate: "2015-09-01"
-endDate: "2019-05-30"
-link: "https://university.edu"
+title: "Universidad Autónoma de Madrid"
+subtitle: "Maestrante en Sistemas Interactivos Inteligentes - Becado por Excelencia Académica"
+logo: "/images/logo_uam.png"
+startDate: "2025-01-01"
+endDate: "En proceso"
+link: "https://www.uam.es/uam/inicio"
 ---
 
-Focused on software engineering, algorithms, and data structures. Graduated with honors and participated in various coding competitions.
+Cursando máster enfocado en el diseño de sistemas interactivos inteligentes y la aplicación de aprendizaje automático (machine learning). Adquiriendo competencias avanzadas en metodologías de investigación y gestión de proyectos de I+D.
