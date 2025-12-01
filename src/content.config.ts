@@ -84,8 +84,8 @@ const certifications = defineCollection({
   schema: z.object({
     title: z.string(),
     subtitle: z.string(),
-    startDate: z.coerce.date(),
-    endDate: z.coerce.date().optional(),
+    // Only `endDate` is allowed/required for certifications (single-date entries)
+    endDate: z.coerce.date(),
     logo: z.string().optional(),
     link: z.string().url().optional(),
   }),

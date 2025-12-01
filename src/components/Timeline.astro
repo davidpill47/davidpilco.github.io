@@ -27,9 +27,9 @@ const IconComponent = icon;
 // Load collection entries
 const entries = await getCollection(collection);
 
-// Sort by start date, most recent first
+// Sort by end date (most recent first). Entries without endDate go last.
 const sortedEntries = entries.sort(
-  (a, b) => b.data.startDate.getTime() - a.data.startDate.getTime()
+  (a, b) => (b.data.endDate?.getTime() ?? 0) - (a.data.endDate?.getTime() ?? 0)
 );
 
 function formatPeriod(startDate: Date, endDate?: Date) {
@@ -54,10 +54,9 @@ function formatSingleDate(date?: Date) {
 }
 
 function displayDateForEntry(entry: any) {
-  // For certifications, show only the endDate (or startDate if endDate missing)
+  // For certifications, show only the endDate
   if (collection === "certifications") {
     if (entry.data.endDate) return formatSingleDate(entry.data.endDate);
-    if (entry.data.startDate) return formatSingleDate(entry.data.startDate);
     return "";
   }
   return formatPeriod(entry.data.startDate, entry.data.endDate);
