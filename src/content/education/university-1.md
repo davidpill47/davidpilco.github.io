@@ -2,8 +2,8 @@
 title: "Universidad Autónoma de Madrid"
 subtitle: "Maestrante en Sistemas Interactivos Inteligentes - Becado por Excelencia Académica"
 logo: "/images/logo_uam.png"
-startDate: "2025-01-01"
-endDate: "En proceso"
+startDate: "2025-09-01"
+endDate: "2027-01-01"
 link: "https://www.uam.es/uam/inicio"
 ---
 
