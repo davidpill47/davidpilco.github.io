@@ -1,7 +1,7 @@
 ---
 title: "Telydata - Telecomunicaciones y Datos Cía Ltda"
 subtitle: "Técnico de Mantenimiento"
-logo: "/images/telydata_logo.jpeg"
+logo: "/images/telydata_logo.png"
 startDate: "2019-01-10"
 endDate: "2022-12-31"
 link: "http://www.telydata.ec"
