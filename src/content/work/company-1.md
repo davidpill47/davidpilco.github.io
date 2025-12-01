@@ -9,4 +9,4 @@ endDate: "2024-01-01"
 link: "https://coopmego.com"
 ---
 
-Led development of multiple high-impact web applications using React, Node.js, and PostgreSQL. Mentored junior developers and implemented best practices for code quality and testing.
+Responsable del soporte técnico y resolución de incidencias, gestionando la instalación, configuración y mantenimiento de equipos, mientras participaba activamente en el desarrollo de software backend.
