@@ -1,6 +1,6 @@
 ---
 title: "Universidad Técnica Particular de Loja"
-subtitle: "Ingenieria en Ciencias de la Computación"
+subtitle: "Ingeniería en Ciencias de la Computación"
 logo: "/images/logo_utpl.jpeg"
 startDate: "2018-04-07"
 endDate: "2023-04-27"
