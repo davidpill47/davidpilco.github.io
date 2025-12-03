@@ -1,9 +1,9 @@
 ---
-title: ""
-subtitle: ""
-logo: "/images/medalla.png"
-endDate: "2019-05-30"
-link: "https://davidpill47.github.io/files/"
+title: "Emerging Technologies Workshop - Experimenting with REST APIs"
+subtitle: "Cisco Networking Academy"
+logo: "/images/certificado.png"
+endDate: "2020-06-29"
+link: "https://davidpill47.github.io/files/APIcertificado.pdf"
 ---
 
-Aqui informacion de la certificacion
+Emerging Technologies Workshop - Experimenting with REST APIs using Webex Teams

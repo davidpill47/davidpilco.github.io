@@ -1,7 +1,7 @@
 ---
 title: "Visualización de Datos"
 subtitle: "Universidad Autónoma de Madrid"
-logo: "/images/medalla.png"
+logo: "/images/certificado.png"
 endDate: "2025-10-08"
 link: "https://davidpill47.github.io/files/DATAcertificado.pdf"
 ---

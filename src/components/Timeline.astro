@@ -153,6 +153,18 @@ const entriesWithContent = await Promise.all(
                           </a>
                         )}
 
+                        {/* Optional per-entry CTA button (show only when frontmatter sets it) */}
+                        {entry.data.extraLink && (
+                          <a
+                            href={entry.data.extraLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn btn-primary btn-sm ml-2"
+                          >
+                            {entry.data.extraLabel ?? "Más info"}
+                          </a>
+                        )}
+
                         {!entry.data.viewInline && collection === "certifications" && (
                           <a
                             href={entry.data.link}
@@ -234,6 +246,17 @@ const entriesWithContent = await Promise.all(
                             : collection === "certifications"
                               ? "Ver Certificado"
                               : "Ver Institución"}
+                        </a>
+                      )}
+
+                      {entry.data.extraLink && (
+                        <a
+                          href={entry.data.extraLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="btn btn-primary btn-sm"
+                        >
+                          {entry.data.extraLabel ?? "Más info"}
                         </a>
                       )}
 
