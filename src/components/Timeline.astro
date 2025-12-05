@@ -139,6 +139,7 @@ const entriesWithContent = await Promise.all(
                               </div>
                           </details>
                         ) : (
+                          
                           <a
                             href={entry.data.link}
                             target="_blank"
@@ -150,18 +151,6 @@ const entriesWithContent = await Promise.all(
                               : collection === "certifications"
                                 ? "Ver Certificado"
                                 : "Ver Institución"}
-                          </a>
-                        )}
-
-                        {/* Optional per-entry CTA button (show only when frontmatter sets it) */}
-                        {entry.data.extraLink && (
-                          <a
-                            href={entry.data.extraLink}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="btn btn-primary btn-sm ml-2"
-                          >
-                            {entry.data.extraLabel ?? "Más info"}
                           </a>
                         )}
 
@@ -246,17 +235,6 @@ const entriesWithContent = await Promise.all(
                             : collection === "certifications"
                               ? "Ver Certificado"
                               : "Ver Institución"}
-                        </a>
-                      )}
-
-                      {entry.data.extraLink && (
-                        <a
-                          href={entry.data.extraLink}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          class="btn btn-primary btn-sm"
-                        >
-                          {entry.data.extraLabel ?? "Más info"}
                         </a>
                       )}
 
